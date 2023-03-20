@@ -1,0 +1,36 @@
+#reading-progress {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  color: #fff;
+
+  padding: 8px 38px;
+  border-radius: 32px;
+}
+
+progress {
+  background-color: #fff;
+  height: 3px;
+  border-radius: 999px;
+}
+
+/* Estilos para a barra de progresso */
+::-webkit-progress-value {
+  background-color: #fff;
+}
+::-moz-progress-bar {
+  background-color: #fff;
+}
+
+.progress-percent {
+  font-weight: 700;
+}
