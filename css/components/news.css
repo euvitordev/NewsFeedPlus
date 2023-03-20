@@ -14,13 +14,13 @@ details {
   transition: all 0.8s ease;
   overflow: hidden;
   text-align: justify;
-
   transition: all 0.2s ease;
 }
 
 .title {
   font-size: 18px;
   font-weight: 700;
+  list-style: none;
 }
 
 .description {
