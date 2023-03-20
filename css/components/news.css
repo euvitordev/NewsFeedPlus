@@ -1,4 +1,4 @@
-#news {
+#news-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -6,50 +6,34 @@
   margin: 100px 0 150px 0;
 }
 
-details {
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   width: 400px;
   padding: 24px;
-  border: 1px solid gray;
+  border: 1px solid rgb(163, 163, 163);
   border-radius: 16px;
-  transition: all 0.8s ease;
-  overflow: hidden;
   text-align: justify;
-  transition: all 0.2s ease;
 }
 
 .title {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
-  list-style: none;
 }
 
 .description {
   font-size: 18px;
   font-weight: 400;
   opacity: 0.8;
-  margin-top: 16px;
 }
 
-.adition {
-  margin-top: 16px;
+.author {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-.url {
-  padding: 8px 24px;
-  border-radius: 999px;
-  border: 0;
-  background: #000;
-  transition: all 0.2s;
-}
-.url:hover {
+  gap: 14px;
+  border: 1px solid rgb(230, 230, 230);
+  padding: 8px;
+  border-radius: 8px;
   opacity: 0.8;
-}
-
-.url a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 700;
 }

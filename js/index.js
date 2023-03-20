@@ -5,40 +5,33 @@ async function getContent() {
     const response = await fetch("./src/data/news.json")
     const data = await response.json()
 
-    const newsContainer = document.querySelector("#news")
+    const newsContainer = document.querySelector("#news-container")
     if (newsContainer) {
       newsContainer.innerHTML = "" // Limpa o conteúdo anterior
 
       data.news.forEach((newsItem) => {
-        const detailsElement = document.createElement("details")
-        const summaryElement = document.createElement("summary")
-        summaryElement.classList.add("title")
-        summaryElement.textContent = newsItem.title
-        const descriptionElement = document.createElement("p")
-        descriptionElement.classList.add("description")
-        descriptionElement.textContent = newsItem.description
+        const newsItem = document.createElement("div")
+        newsItem.classList.add("news")
 
-        const aditionElement = document.createElement("div")
-        aditionElement.classList.add("adition")
+        const title = document.createElement("h2")
+        title.classList.add("title")
+        title.textContent = item.title
+        newsItem.appendChild(title)
 
-        const fontElement = document.createElement("span")
-        fontElement.classList.add("author")
-        fontElement.textContent = `${newsItem.author}`
+        const description = document.createElement("p")
+        description.classList.add("description")
+        description.textContent = item.description
+        newsItem.appendChild(description)
 
-        const urlButtonElement = document.createElement("button")
-        urlButtonElement.classList.add("url")
-        const linkElement = document.createElement("a")
-        linkElement.href = newsItem.url
-        linkElement.textContent = "visitar"
-        urlButtonElement.appendChild(linkElement)
+        const author = document.createElement("p")
+        author.classList.add("author")
+        const linkIcon = document.createElement("i")
+        linkIcon.classList.add("fa-sharp", "fa-solid", "fa-link")
+        author.appendChild(linkIcon)
+        author.textContent = item.author
+        newsItem.appendChild(author)
 
-        aditionElement.appendChild(fontElement)
-        aditionElement.appendChild(urlButtonElement)
-
-        detailsElement.appendChild(summaryElement)
-        detailsElement.appendChild(descriptionElement)
-        detailsElement.appendChild(aditionElement)
-        newsContainer.appendChild(detailsElement)
+        newsContainer.appendChild(newsItem)
       })
 
       const scrollTop = window.scrollY

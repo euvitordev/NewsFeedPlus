@@ -5,41 +5,22 @@ async function getContent() {
     const response = await fetch("./src/data/news.json")
     const data = await response.json()
 
-    const newsContainer = document.querySelector("#news")
+    const newsContainer = document.querySelector("#news-container")
     if (newsContainer) {
       newsContainer.innerHTML = "" // Limpa o conteúdo anterior
 
-      data.news.forEach((newsItem) => {
-        const detailsElement = document.createElement("details")
-        const summaryElement = document.createElement("summary")
-        summaryElement.classList.add("title")
-        summaryElement.textContent = newsItem.title
-        const descriptionElement = document.createElement("p")
-        descriptionElement.classList.add("description")
-        descriptionElement.textContent = newsItem.description
-
-        const aditionElement = document.createElement("div")
-        aditionElement.classList.add("adition")
-
-        const fontElement = document.createElement("span")
-        fontElement.classList.add("author")
-        fontElement.textContent = `${newsItem.author}`
-
-        const urlButtonElement = document.createElement("button")
-        urlButtonElement.classList.add("url")
-        const linkElement = document.createElement("a")
-        linkElement.href = newsItem.url
-        linkElement.textContent = "visitar"
-        urlButtonElement.appendChild(linkElement)
-
-        aditionElement.appendChild(fontElement)
-        aditionElement.appendChild(urlButtonElement)
-
-        detailsElement.appendChild(summaryElement)
-        detailsElement.appendChild(descriptionElement)
-        detailsElement.appendChild(aditionElement)
-        newsContainer.appendChild(detailsElement)
+      const newsItems = data.news.map((newsItem) => {
+        const title = `<h2 class="title">${newsItem.title}</h2>`
+        const description = `<p class="description">${newsItem.description}</p>`
+        const author = `<span class="author"><i class="fa-sharp fa-solid fa-link"></i>${newsItem.author}</span>`
+        const newsItemHtml = `<div class="news">${title}${description}${author}</div>`
+        return newsItemHtml
       })
+
+      const newsHtml = newsItems.join("")
+      newsContainer.appendChild(
+        document.createRange().createContextualFragment(newsHtml)
+      )
 
       const scrollTop = window.scrollY
       const totalHeight =
