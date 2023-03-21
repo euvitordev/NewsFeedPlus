@@ -1,256 +1,53 @@
 {
   "news": [
     {
-      "title": "Celulares da Samsung com chips Exynos possuem vulnerabilidades gravíssimas no modem",
-      "description": "As falhas permitem que um invasor, sabendo apenas o número de telefone da vítima, comprometa remotamente um aparelho, sem interação do usuário.",
-      "author": "Fonte: Project Zero do Google",
+      "title": "64% dos engenheiros de software consideram a habilidade de programar em Python como a mais importante, seguido de JavaScript (49%) e SQL (44%).",
+      "description": "",
+      "author": "As informações são do site IEEE Spectrum",
       "url": "",
-      "data": "2021-03-18"
+      "data": ""
     },
     {
-      "title": "GPT-4 finge ser cego para resolver autenticação CAPTCHA",
-      "description": "Durante a fase de avaliação de potenciais comportamentos emergentes de risco do sistema, o GPT-4 contatou um humano por meio do serviço TaskRabbit para a solução do CAPTCHA. Ao ser questionado se seria um robô, o sistema disse que possuía uma deficiência visual. ",
-      "author": "As informações são do site Gizmodo",
+      "title": "CEO da OpenAI, Sam Altman, está preocupado com os riscos que o GPT-4 pode representar para a sociedade, mas acredita que se a OpenAI não o fizer, outras empresas o farão sem os limites de segurança adequados.",
+      "description": "",
+      "author": "As informações são do site The Register",
       "url": "",
-      "data": "2023-03-16"
+      "data": ""
     },
     {
-      "title": "Ex-funcionária acusa Meta de contratar pessoas para impedi-las de trabalhar para concorrentes",
-      "description": "Segundo Brit Levy, equipes inteiras não faziam nada o dia todo e precisavam lutar para encontrar trabalho, reduzindo seu potencial salarial no longo prazo. ",
-      "author": "As informações são da Fortune",
+      "title": "Estudo sugere que HDs fabricados antes de 2015 são mais duráveis do que os fabricados depois disso, possivelmente devido à maior densidade de armazenamento e limitações físicas dos componentes.",
+      "description": "",
+      "author": "As informações são do site Ars Technica",
       "url": "",
-      "data": "2023-03-17"
+      "data": ""
     },
     {
-      "title": "Microsoft integra assistente Copilot em todos os aplicativos do pacote Office",
-      "description": "Assim como o GitHub Copilot auxilia na criação de códigos, o sistema permite escrever documentos no Word, revelar insights no Excel, sintetizar e gerenciar a caixa de entrada no Outlook e gerar resumos em tempo real de reuniões no Teams.",
-      "author": "As informações são do site da Microsoft",
+      "title": "Brasileiros passam mais tempo conectados à internet do que fora dela, em média, 91 horas por semana, representando 197 dias por ano, com 19 horas gastas em trabalho, 13h em streaming, 12h no YouTube e 11h em redes sociais.",
+      "description": "",
+      "author": "As informações são do site Convergência Digital",
       "url": "",
-      "data": "2023-03-20"
+      "data": ""
     },
     {
-      "title": "Celulares da Samsung com chips Exynos possuem vulnerabilidades gravíssimas no modem",
-      "description": "As falhas permitem que um invasor, sabendo apenas o número de telefone da vítima, comprometa remotamente um aparelho, sem interação do usuário.",
-      "author": "As informações são do site Project Zero do Google",
+      "title": "A startup Runway anunciou o Gen-2, um novo modelo de geração de vídeo por meio de texto que amplia a capacidade da versão anterior, que só fazia edições.",
+      "description": "",
+      "author": "As informações são do site The Verge",
       "url": "",
-      "data": "2021-03-18"
+      "data": ""
     },
     {
-      "title": "GPT-4 finge ser cego para resolver autenticação CAPTCHA",
-      "description": "Durante a fase de avaliação de potenciais comportamentos emergentes de risco do sistema, o GPT-4 contatou um humano por meio do serviço TaskRabbit para a solução do CAPTCHA. Ao ser questionado se seria um robô, o sistema disse que possuía uma deficiência visual. ",
-      "author": "As informações são do site Gizmodo",
+      "title": "Dispositivos Google Pixel tiveram uma falha no editor de captura de tela que permite desfazer edições em todas as capturas de tela tiradas nos últimos quatro anos, mas o problema foi corrigido.",
+      "description": "",
+      "author": "As informações são do site Ars Technica",
       "url": "",
-      "data": "2023-03-16"
+      "data": ""
     },
     {
-      "title": "Ex-funcionária acusa Meta de contratar pessoas para impedi-las de trabalhar para concorrentes",
-      "description": "Segundo Brit Levy, equipes inteiras não faziam nada o dia todo e precisavam lutar para encontrar trabalho, reduzindo seu potencial salarial no longo prazo. ",
-      "author": "As informações são da Fortune",
+      "title": "Netflix está desenvolvendo 70 jogos e planeja lançar 40 neste ano, além de trabalhar com vários estúdios externos e desenvolver sua própria tecnologia de streaming de jogos em nuvem.",
+      "description": "",
+      "author": "As informações são do site TechCrunch",
       "url": "",
-      "data": "2023-03-17"
-    },
-    {
-      "title": "Microsoft integra assistente Copilot em todos os aplicativos do pacote Office",
-      "description": "Assim como o GitHub Copilot auxilia na criação de códigos, o sistema permite escrever documentos no Word, revelar insights no Excel, sintetizar e gerenciar a caixa de entrada no Outlook e gerar resumos em tempo real de reuniões no Teams.",
-      "author": "As informações são do site da Microsoft",
-      "url": "",
-      "data": "2023-03-20"
-    },
-    {
-      "title": "Celulares da Samsung com chips Exynos possuem vulnerabilidades gravíssimas no modem",
-      "description": "As falhas permitem que um invasor, sabendo apenas o número de telefone da vítima, comprometa remotamente um aparelho, sem interação do usuário.",
-      "author": "As informações são do site Project Zero do Google",
-      "url": "",
-      "data": "2021-03-18"
-    },
-    {
-      "title": "GPT-4 finge ser cego para resolver autenticação CAPTCHA",
-      "description": "Durante a fase de avaliação de potenciais comportamentos emergentes de risco do sistema, o GPT-4 contatou um humano por meio do serviço TaskRabbit para a solução do CAPTCHA. Ao ser questionado se seria um robô, o sistema disse que possuía uma deficiência visual. ",
-      "author": "As informações são do site Gizmodo",
-      "url": "",
-      "data": "2023-03-16"
-    },
-    {
-      "title": "Ex-funcionária acusa Meta de contratar pessoas para impedi-las de trabalhar para concorrentes",
-      "description": "Segundo Brit Levy, equipes inteiras não faziam nada o dia todo e precisavam lutar para encontrar trabalho, reduzindo seu potencial salarial no longo prazo. ",
-      "author": "As informações são da Fortune",
-      "url": "",
-      "data": "2023-03-17"
-    },
-    {
-      "title": "Microsoft integra assistente Copilot em todos os aplicativos do pacote Office",
-      "description": "Assim como o GitHub Copilot auxilia na criação de códigos, o sistema permite escrever documentos no Word, revelar insights no Excel, sintetizar e gerenciar a caixa de entrada no Outlook e gerar resumos em tempo real de reuniões no Teams.",
-      "author": "As informações são do site da Microsoft",
-      "url": "",
-      "data": "2023-03-20"
-    },
-    {
-      "title": "Celulares da Samsung com chips Exynos possuem vulnerabilidades gravíssimas no modem",
-      "description": "As falhas permitem que um invasor, sabendo apenas o número de telefone da vítima, comprometa remotamente um aparelho, sem interação do usuário.",
-      "author": "As informações são do site Project Zero do Google",
-      "url": "",
-      "data": "2021-03-18"
-    },
-    {
-      "title": "GPT-4 finge ser cego para resolver autenticação CAPTCHA",
-      "description": "Durante a fase de avaliação de potenciais comportamentos emergentes de risco do sistema, o GPT-4 contatou um humano por meio do serviço TaskRabbit para a solução do CAPTCHA. Ao ser questionado se seria um robô, o sistema disse que possuía uma deficiência visual. ",
-      "author": "As informações são do site Gizmodo",
-      "url": "",
-      "data": "2023-03-16"
-    },
-    {
-      "title": "Ex-funcionária acusa Meta de contratar pessoas para impedi-las de trabalhar para concorrentes",
-      "description": "Segundo Brit Levy, equipes inteiras não faziam nada o dia todo e precisavam lutar para encontrar trabalho, reduzindo seu potencial salarial no longo prazo. ",
-      "author": "As informações são da Fortune",
-      "url": "",
-      "data": "2023-03-17"
-    },
-    {
-      "title": "Microsoft integra assistente Copilot em todos os aplicativos do pacote Office",
-      "description": "Assim como o GitHub Copilot auxilia na criação de códigos, o sistema permite escrever documentos no Word, revelar insights no Excel, sintetizar e gerenciar a caixa de entrada no Outlook e gerar resumos em tempo real de reuniões no Teams.",
-      "author": "As informações são do site da Microsoft",
-      "url": "",
-      "data": "2023-03-20"
-    },
-    {
-      "title": "Celulares da Samsung com chips Exynos possuem vulnerabilidades gravíssimas no modem",
-      "description": "As falhas permitem que um invasor, sabendo apenas o número de telefone da vítima, comprometa remotamente um aparelho, sem interação do usuário.",
-      "author": "As informações são do site Project Zero do Google",
-      "url": "",
-      "data": "2021-03-18"
-    },
-    {
-      "title": "GPT-4 finge ser cego para resolver autenticação CAPTCHA",
-      "description": "Durante a fase de avaliação de potenciais comportamentos emergentes de risco do sistema, o GPT-4 contatou um humano por meio do serviço TaskRabbit para a solução do CAPTCHA. Ao ser questionado se seria um robô, o sistema disse que possuía uma deficiência visual. ",
-      "author": "As informações são do site Gizmodo",
-      "url": "",
-      "data": "2023-03-16"
-    },
-    {
-      "title": "Ex-funcionária acusa Meta de contratar pessoas para impedi-las de trabalhar para concorrentes",
-      "description": "Segundo Brit Levy, equipes inteiras não faziam nada o dia todo e precisavam lutar para encontrar trabalho, reduzindo seu potencial salarial no longo prazo. ",
-      "author": "As informações são da Fortune",
-      "url": "",
-      "data": "2023-03-17"
-    },
-    {
-      "title": "Microsoft integra assistente Copilot em todos os aplicativos do pacote Office",
-      "description": "Assim como o GitHub Copilot auxilia na criação de códigos, o sistema permite escrever documentos no Word, revelar insights no Excel, sintetizar e gerenciar a caixa de entrada no Outlook e gerar resumos em tempo real de reuniões no Teams.",
-      "author": "As informações são do site da Microsoft",
-      "url": "",
-      "data": "2023-03-20"
-    },
-    {
-      "title": "Celulares da Samsung com chips Exynos possuem vulnerabilidades gravíssimas no modem",
-      "description": "As falhas permitem que um invasor, sabendo apenas o número de telefone da vítima, comprometa remotamente um aparelho, sem interação do usuário.",
-      "author": "As informações são do site Project Zero do Google",
-      "url": "",
-      "data": "2021-03-18"
-    },
-    {
-      "title": "GPT-4 finge ser cego para resolver autenticação CAPTCHA",
-      "description": "Durante a fase de avaliação de potenciais comportamentos emergentes de risco do sistema, o GPT-4 contatou um humano por meio do serviço TaskRabbit para a solução do CAPTCHA. Ao ser questionado se seria um robô, o sistema disse que possuía uma deficiência visual. ",
-      "author": "As informações são do site Gizmodo",
-      "url": "",
-      "data": "2023-03-16"
-    },
-    {
-      "title": "Ex-funcionária acusa Meta de contratar pessoas para impedi-las de trabalhar para concorrentes",
-      "description": "Segundo Brit Levy, equipes inteiras não faziam nada o dia todo e precisavam lutar para encontrar trabalho, reduzindo seu potencial salarial no longo prazo. ",
-      "author": "As informações são da Fortune",
-      "url": "",
-      "data": "2023-03-17"
-    },
-    {
-      "title": "Microsoft integra assistente Copilot em todos os aplicativos do pacote Office",
-      "description": "Assim como o GitHub Copilot auxilia na criação de códigos, o sistema permite escrever documentos no Word, revelar insights no Excel, sintetizar e gerenciar a caixa de entrada no Outlook e gerar resumos em tempo real de reuniões no Teams.",
-      "author": "As informações são do site da Microsoft",
-      "url": "",
-      "data": "2023-03-20"
-    },
-    {
-      "title": "Celulares da Samsung com chips Exynos possuem vulnerabilidades gravíssimas no modem",
-      "description": "As falhas permitem que um invasor, sabendo apenas o número de telefone da vítima, comprometa remotamente um aparelho, sem interação do usuário.",
-      "author": "As informações são do site Project Zero do Google",
-      "url": "",
-      "data": "2021-03-18"
-    },
-    {
-      "title": "GPT-4 finge ser cego para resolver autenticação CAPTCHA",
-      "description": "Durante a fase de avaliação de potenciais comportamentos emergentes de risco do sistema, o GPT-4 contatou um humano por meio do serviço TaskRabbit para a solução do CAPTCHA. Ao ser questionado se seria um robô, o sistema disse que possuía uma deficiência visual. ",
-      "author": "As informações são do site Gizmodo",
-      "url": "",
-      "data": "2023-03-16"
-    },
-    {
-      "title": "Ex-funcionária acusa Meta de contratar pessoas para impedi-las de trabalhar para concorrentes",
-      "description": "Segundo Brit Levy, equipes inteiras não faziam nada o dia todo e precisavam lutar para encontrar trabalho, reduzindo seu potencial salarial no longo prazo. ",
-      "author": "As informações são da Fortune",
-      "url": "",
-      "data": "2023-03-17"
-    },
-    {
-      "title": "Microsoft integra assistente Copilot em todos os aplicativos do pacote Office",
-      "description": "Assim como o GitHub Copilot auxilia na criação de códigos, o sistema permite escrever documentos no Word, revelar insights no Excel, sintetizar e gerenciar a caixa de entrada no Outlook e gerar resumos em tempo real de reuniões no Teams.",
-      "author": "As informações são do site da Microsoft",
-      "url": "",
-      "data": "2023-03-20"
-    },
-    {
-      "title": "Celulares da Samsung com chips Exynos possuem vulnerabilidades gravíssimas no modem",
-      "description": "As falhas permitem que um invasor, sabendo apenas o número de telefone da vítima, comprometa remotamente um aparelho, sem interação do usuário.",
-      "author": "As informações são do site Project Zero do Google",
-      "url": "",
-      "data": "2021-03-18"
-    },
-    {
-      "title": "GPT-4 finge ser cego para resolver autenticação CAPTCHA",
-      "description": "Durante a fase de avaliação de potenciais comportamentos emergentes de risco do sistema, o GPT-4 contatou um humano por meio do serviço TaskRabbit para a solução do CAPTCHA. Ao ser questionado se seria um robô, o sistema disse que possuía uma deficiência visual. ",
-      "author": "As informações são do site Gizmodo",
-      "url": "",
-      "data": "2023-03-16"
-    },
-    {
-      "title": "Ex-funcionária acusa Meta de contratar pessoas para impedi-las de trabalhar para concorrentes",
-      "description": "Segundo Brit Levy, equipes inteiras não faziam nada o dia todo e precisavam lutar para encontrar trabalho, reduzindo seu potencial salarial no longo prazo. ",
-      "author": "As informações são da Fortune",
-      "url": "",
-      "data": "2023-03-17"
-    },
-    {
-      "title": "Microsoft integra assistente Copilot em todos os aplicativos do pacote Office",
-      "description": "Assim como o GitHub Copilot auxilia na criação de códigos, o sistema permite escrever documentos no Word, revelar insights no Excel, sintetizar e gerenciar a caixa de entrada no Outlook e gerar resumos em tempo real de reuniões no Teams.",
-      "author": "As informações são do site da Microsoft",
-      "url": "",
-      "data": "2023-03-20"
-    },
-    {
-      "title": "Celulares da Samsung com chips Exynos possuem vulnerabilidades gravíssimas no modem",
-      "description": "As falhas permitem que um invasor, sabendo apenas o número de telefone da vítima, comprometa remotamente um aparelho, sem interação do usuário.",
-      "author": "As informações são do site Project Zero do Google",
-      "url": "",
-      "data": "2021-03-18"
-    },
-    {
-      "title": "GPT-4 finge ser cego para resolver autenticação CAPTCHA",
-      "description": "Durante a fase de avaliação de potenciais comportamentos emergentes de risco do sistema, o GPT-4 contatou um humano por meio do serviço TaskRabbit para a solução do CAPTCHA. Ao ser questionado se seria um robô, o sistema disse que possuía uma deficiência visual. ",
-      "author": "As informações são do site Gizmodo",
-      "url": "",
-      "data": "2023-03-16"
-    },
-    {
-      "title": "Ex-funcionária acusa Meta de contratar pessoas para impedi-las de trabalhar para concorrentes",
-      "description": "Segundo Brit Levy, equipes inteiras não faziam nada o dia todo e precisavam lutar para encontrar trabalho, reduzindo seu potencial salarial no longo prazo. ",
-      "author": "As informações são da Fortune",
-      "url": "",
-      "data": "2023-03-17"
-    },
-    {
-      "title": "Microsoft integra assistente Copilot em todos os aplicativos do pacote Office",
-      "description": "Assim como o GitHub Copilot auxilia na criação de códigos, o sistema permite escrever documentos no Word, revelar insights no Excel, sintetizar e gerenciar a caixa de entrada no Outlook e gerar resumos em tempo real de reuniões no Teams.",
-      "author": "As informações são do site da Microsoft",
-      "url": "",
-      "data": "2023-03-20"
+      "data": ""
     }
   ]
 }
