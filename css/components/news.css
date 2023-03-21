@@ -18,9 +18,6 @@
 }
 
 .title {
-  padding: 12px;
-  background: rgba(255, 255, 255, 0.144);
-  border-radius: 8px;
   font-size: 22px;
   font-weight: 700;
 }
@@ -29,14 +26,13 @@
   font-size: 18px;
   font-weight: 400;
   opacity: 0.8;
-  /* padding: 16px; */
 }
 
 .author {
   display: flex;
   align-items: center;
   gap: 14px;
-  border: 1px solid rgb(230, 230, 230);
+  border: 1px solid rgba(0, 0, 0, 0.281);
   padding: 8px;
   border-radius: 8px;
   opacity: 0.8;
